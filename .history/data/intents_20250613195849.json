@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "How are you",
+                "What's up"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How may I assist you?",
+                "Greetings! How can I be of service?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care",
+                "I'm leaving",
+                "Have a good day"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Take care!",
+                "Bye! Come back soon!",
+                "Take care! Have a wonderful day!"
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order",
+                "What's the status of my order",
+                "When will I receive my order",
+                "Track my order",
+                "Order status",
+                "Is my order shipped"
+            ],
+            "responses": [
+                "I can help you track your order. Could you please provide your order number?",
+                "To check your order status, I'll need your order number.",
+                "I'd be happy to help you track your order. Please share your order number."
+            ]
+        },
+        {
+            "tag": "payment_issue",
+            "patterns": [
+                "Payment failed",
+                "My payment didn't go through",
+                "Transaction declined",
+                "Payment error",
+                "Can't complete payment",
+                "Payment problem"
+            ],
+            "responses": [
+                "I'm sorry to hear about your payment issue. Could you please provide your order number and the payment method you used?",
+                "Let me help you with your payment problem. Please share your order number and payment details.",
+                "I'll help you resolve this payment issue. Could you provide more details about the transaction?"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "Thanks a lot",
+                "I appreciate it",
+                "That's helpful"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime!",
+                "My pleasure!"
+            ]
+        }
+    ]
+} 
